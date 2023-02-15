@@ -23,7 +23,9 @@ A API RESTful deveria:
 -   Evitar códigos duplicados.
 
 ## Como usar:
+Após baixar a API você deve abrir um terminal no diretório `/Desafio-Back-End-Cubos-Academy-Modulo-02` e rodar o comando `npm install`, quando a instalação finalizar é só rodar o comando `npm run dev` para iniciar a API.
 
+Você pode usar o insomnia ou outro framework de sua preferência para testar os seguintes endpoints na porta `https://localhost:3000`.
 
 ## Endpoints
 
