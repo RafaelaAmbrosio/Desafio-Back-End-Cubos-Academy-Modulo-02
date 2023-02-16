@@ -147,9 +147,9 @@ Esse endpoint realiza o saque de um valor em uma determinada conta bancária e r
 ```javascript
 // POST /transacoes/sacar
 {
-	"numero_conta": "1",
-	"valor": 1900,
-    "senha": "123456"
+  "numero_conta": "1",
+  "valor": 1900,
+  "senha": "123456"
 }
 ```
 
