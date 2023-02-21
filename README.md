@@ -22,7 +22,7 @@ A API RESTful deveria:
 -   Qualquer valor (dinheiro) deveria ser representado em centavos (Ex.: R$ 10,00 reais = 1000)
 -   Evitar códigos duplicados.
 
-## Tecnologias:
+## Tecnologias
 <div style="display: inline_block"><br>
    <img align="center" alt="logo JavaScript" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
    <img align="center" alt="logo Express" height="40" width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18v7qjb95jfqfBueH0PMFkla_3cPQQORDPL_pkACa7Z1IpqKY-8fkvEv75YiV5cwwRXE&usqp=CAU" />    
@@ -32,7 +32,7 @@ A API RESTful deveria:
 </div>
 
 
-## Como usar:
+## Como usar
 Após baixar a API você deve abrir um terminal no diretório `/Desafio-Back-End-Cubos-Academy-Modulo-02` e rodar o comando `npm install`, quando a instalação finalizar é só rodar o comando `npm run dev` para iniciar a API.
 
 Você pode usar o insomnia ou outro framework de sua preferência para testar os seguintes endpoints na porta `https://localhost:3000`.
