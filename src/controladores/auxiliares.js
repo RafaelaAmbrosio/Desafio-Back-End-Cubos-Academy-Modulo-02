@@ -134,6 +134,24 @@ async function consultarExtrato(tipo, tipoConta, numero_conta) {
   }
 }
 
+function validarConta(conta, valor) {
+  if (!conta) {
+    return {
+      status: 404,
+      mensagem: { mensagem: 'Conta não encontrada!' },
+    };
+  }
+
+  if (conta.saldo < valor) {
+    return {
+      status: 401,
+      mensagem: { mensagem: 'Saldo insuficiente!' },
+    };
+  }
+
+  return false;
+}
+
 module.exports = {
   validarSenha,
   validarInformacoesDaConta,
@@ -143,4 +161,5 @@ module.exports = {
   criarExtrato,
   mudarSaldoDaConta,
   consultarExtrato,
+  validarConta,
 };

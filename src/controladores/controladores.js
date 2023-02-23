@@ -7,6 +7,7 @@ const {
   criarExtrato,
   mudarSaldoDaConta,
   consultarExtrato,
+  validarConta,
 } = require('./auxiliares');
 const pool = require('../dados/pool');
 const bcrypt = require('bcrypt');
@@ -174,15 +175,10 @@ async function sacarValor(req, res) {
   try {
     const conta = await encontrarContaPorId(numero_conta);
 
-    if (!conta) {
-      return res.status(404).json({
-        mensagem: 'Conta não encontrada!',
-      });
-    }
-
-    if (conta.saldo < valor) {
-      return res.status(401).json({
-        mensagem: 'Saldo insuficiente!',
+    const contaValidada = validarConta(conta, valor);
+    if (contaValidada) {
+      return res.status(contaValidada.status).json({
+        ...contaValidada.mensagem,
       });
     }
 
