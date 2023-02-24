@@ -39,7 +39,6 @@ A API RESTful deveria:
 ## Requisitos
 
 - Node.js `Utilizei a versão 18.12.1`
-- NPM `Utilizei a versão 9.1.2`
 - PostgreSQL `Utilizei a versão 15`
 
 ## Como usar
