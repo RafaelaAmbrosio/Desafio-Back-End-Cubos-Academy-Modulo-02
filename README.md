@@ -1,6 +1,7 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
 # Desafio Módulo 2 - Back-end - Cubos Academy
+### Status: Concluido
 
 Esse era o desafio do módulo 2 da Cubos, a tarefa era desenvolver uma API para um Banco Digital. Originalmente a persistência de dados deveria ser feita em memória, porém era opcional e um extra fazê-la em um arquivo `JSON`, no entanto decidi melhorar essa API com os conhecimentos de Banco de Dados adquiridos no Modulo 3 e implementar o PostgreSQL.
 
@@ -23,13 +24,15 @@ A API RESTful deveria:
 - Qualquer valor (dinheiro) deveria ser representado em centavos (Ex.: R$ 10,00 reais = 1000)
 - Evitar códigos duplicados.
 
+
+
 ## Tecnologias
 
 <div style="display: inline_block"><br>
-   <img align="center" alt="logo JavaScript" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
-   <img align="center" alt="logo Express" height="40" width="40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18v7qjb95jfqfBueH0PMFkla_3cPQQORDPL_pkACa7Z1IpqKY-8fkvEv75YiV5cwwRXE&usqp=CAU" />    
-   <img align="center" alt="logo NodeJs" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-plain.svg" />
-   <img align="center" alt="logo PostgreSQL" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
+   <img align="center" alt="logo JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+   <img align="center" alt="logo Express"  src="https://img.shields.io/badge/Express.js-404D59?logo=Express&style=for-the-badge" />    
+   <img align="center" alt="logo NodeJs" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" />
+   <img align="center" alt="logo PostgreSQL"  src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
           
 </div>
 
