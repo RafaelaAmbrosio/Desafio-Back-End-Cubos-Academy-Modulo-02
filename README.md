@@ -40,14 +40,27 @@ A API RESTful deveria:
 
 - Node.js `v18.12.1`
 - PostgreSQL `v15`
+- Insomnia ou outro API Client
+- Beekeeper Studio ou outro gerenciador de banco de dados.
 
 ## Como usar
+1. Baixar ou clonar o repositório.
 
-Após baixar a API você deve abrir um terminal no diretório `/Desafio-Back-End-Cubos-Academy-Modulo-02` e rodar o comando `npm install`, quando a instalação finalizar é só rodar o comando `npm run dev` para iniciar a API.
+#### Para criar o banco de dados:
+ 1. Abrir o gerenciador de banco de dados e conectar com o PostgreSQL.
+ 2. Abir o arquivo `dump.sql` no diretório `Desafio-Back-End-Cubos-Academy-Modulo-02/src/dados`
+ 3. Copiar e rodar a primeira linha do arquivo `dump.sql` para criar o database.
+ 4. Selecionar o database criado.
+ 5. Copiar e rodar as linhas restantes do arquivo.
+ 
+#### Para iniciar a API:
+ 1. Você deve abrir um terminal no diretório `/Desafio-Back-End-Cubos-Academy-Modulo-02`.
+ 2. Rodar o comando `npm install`.
+ 3. Após a instalação finalizar rodar o comando `npm run dev` para iniciar a API.
 
-Você pode usar o insomnia ou outro framework de sua preferência para testar os seguintes endpoints na porta `https://localhost:3000`.
+Você pode usar o insomnia ou outra API Client de sua preferência para testar os endpoints.
 
-**Se necessário, é possível configurar a pool do banco de dados no arquivo`/Desafio-Back-End-Cubos-Academy-Modulo-02/src/dados/pool.js`.**
+**Se necessário é possível configurar a pool do banco de dados no arquivo `pool.js` no diretório `/Desafio-Back-End-Cubos-Academy-Modulo-02/src/dados`.**
 
 ## Endpoints
 
