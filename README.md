@@ -48,7 +48,7 @@ A API RESTful deveria:
 
 #### Para criar o banco de dados:
  1. Abrir o gerenciador de banco de dados e conectar com o PostgreSQL.
- 2. Abir o arquivo `dump.sql` no diretório `Desafio-Back-End-Cubos-Academy-Modulo-02/src/dados`
+ 2. Abir o arquivo `dump.sql` no diretório `Desafio-Back-End-Cubos-Academy-Modulo-02/src/dados`.
  3. Copiar e rodar a primeira linha do arquivo `dump.sql` para criar o database.
  4. Selecionar o database criado.
  5. Copiar e rodar as linhas restantes do arquivo.
