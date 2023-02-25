@@ -41,7 +41,7 @@ A API RESTful deveria:
 - Node.js `v18.12.1`
 - PostgreSQL `v15`
 - Insomnia ou outro API Client
-- Beekeeper Studio ou outro gerenciador de banco de dados.
+- Beekeeper Studio ou outro gerenciador de banco de dados
 
 ## Como usar
 1. Baixar ou clonar o repositório.
